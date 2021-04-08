@@ -1,0 +1,40 @@
+{
+  "name": "mywork",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "webpack --watch",
+    "postinstall": "gulp copyLibs",
+    "start": "cd server && node server.js"
+  },
+  "author": "Miia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "chai": "^4.3.3",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "mocha": "^8.3.2",
+    "ncp": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
